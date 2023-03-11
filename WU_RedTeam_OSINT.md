@@ -87,7 +87,9 @@ We can download a backup of the CTF. We get a ZIP file.
 We have the file `5f990814d86cf7b1152101be22e7c5a5/ssh_key_647032702ede7e519b1eb0279ba0ef99572e92.zip` !
 
 Let's try to open it.
+
 ![Zip](img/password_zip.png)
+
 We need a password to open the zip. Let's use the tool ``zip2john` to process input ZIP files into a format suitable for use with JohnTheRipper, a password cracker.
 ![zip2john](img/zip2john.png)
 We can now use JohnTheRipper
@@ -174,4 +176,5 @@ Luckily, it's a paragliding picture. We can see all the similiraties with the fi
 We can go on this position.
 ![GG](img/gg.png)
 It's the same position ! Let's get the GPS coordinates
+
 `ZiTF{45.9471_6.4457}`
